@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+
+
+    <ImageView
+        android:elevation="5dp"
+        android:id="@+id/content"
+        android:layout_width="match_parent"
+        android:layout_centerInParent="true"
+        android:layout_height="match_parent"
+        android:layout_marginTop="-200dp"
+        android:layout_marginLeft="-200dp"
+        android:layout_marginRight="-200dp"
+        android:layout_marginBottom="-200dp"
+        android:background="@drawable/circle_shrink" />
+    <ImageView
+        android:elevation="8dp"
+        android:layout_centerInParent="true"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:background="@drawable/growcircle"
+        android:id="@+id/blackCircle"/>
+    <ImageView
+        android:layout_centerInParent="true"
+        android:layout_width="wrap_content"
+        android:adjustViewBounds="true"
+        android:layout_height="wrap_content"
+        android:src="@drawable/growring"
+        android:id="@+id/blackring"/>
+    <ImageView
+        android:layout_centerInParent="true"
+        android:layout_width="wrap_content"
+        android:adjustViewBounds="true"
+        android:layout_height="wrap_content"
+        android:src="@drawable/growring"
+        android:id="@+id/blackring2"/>
+    <ImageView
+        android:layout_centerInParent="true"
+        android:layout_width="wrap_content"
+        android:adjustViewBounds="true"
+        android:layout_height="wrap_content"
+        android:src="@drawable/growring"
+        android:id="@+id/blackring3"/>
+
+</RelativeLayout>

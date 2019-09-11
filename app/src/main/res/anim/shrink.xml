@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--  fillafter and fillenabled makes the view stay how it is after the animation-->
+<!-- scalex changed the width and scaley changes the height -->
+<!-- pivotxy places the view of where it will be after the animation so 50 50 will make it be in the middle after shrunk -->
+<set
+    android:fillAfter="true"
+    android:fillEnabled="true"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+    <scale
+        android:fromXScale="1"
+        android:toXScale=".34"
+        android:fromYScale=".75"
+        android:toYScale=".25"
+        android:duration="3000"
+        android:pivotX="50%"
+        android:pivotY="50%" >
+    </scale>
+    <rotate
+        android:fromDegrees="90"
+        android:toDegrees="270"
+        android:pivotX="50%"
+        android:pivotY="50%"
+        android:duration="3000" />
+
+</set>
