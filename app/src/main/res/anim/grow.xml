@@ -8,9 +8,9 @@
         android:duration="3000"
         android:interpolator="@android:anim/accelerate_decelerate_interpolator"
         android:fromXScale="0.0"
-        android:toXScale="24.0"
+        android:toXScale="1.1"
         android:fromYScale="0.0"
-        android:toYScale="24.0"
+        android:toYScale="1.1"
         android:pivotX="50%"
         android:pivotY="50%"
         />

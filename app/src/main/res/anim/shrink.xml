@@ -8,9 +8,9 @@
     xmlns:android="http://schemas.android.com/apk/res/android">
     <scale
         android:fromXScale="1"
-        android:toXScale=".34"
-        android:fromYScale=".75"
-        android:toYScale=".25"
+        android:toXScale=".36"
+        android:fromYScale="1"
+        android:toYScale=".36"
         android:duration="3000"
         android:pivotX="50%"
         android:pivotY="50%" >
